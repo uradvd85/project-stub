@@ -1,0 +1,1 @@
+block('b3').content()('has no js mode');

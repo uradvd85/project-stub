@@ -1,0 +1,7 @@
+def()(function() {
+    var js = apply('js');
+
+    typeof js !== 'undefined' && (this.ctx.js = apply('js'));
+
+    return applyNext();
+});
